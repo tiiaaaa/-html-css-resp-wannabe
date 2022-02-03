@@ -71,3 +71,52 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* Inizio Esercizio */
+
+/* Mobile */
+@media screen and (max-width: 420px) {
+.row{
+    width: 100%;
+    margin-top: 0px;
+    padding: 20px 0;
+  }
+
+  .row h1{
+    margin-top: 0;
+  }
+
+  .row h3{
+    font-size: 1.5rem;
+  }
+
+  /* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+/* BLOCCO PERCHE */
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+#lezioni, #why{
+  background-color: lightyellow;
+}
+
+}
